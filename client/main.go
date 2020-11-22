@@ -115,6 +115,7 @@ func main() {
 	defer cancel()
 
 	// -- Single FizzBuzz --
+	log.Println("-- call Sigle FizzBuzz --")
 	callSingleFizzBuzz(client, ctx)
 
 	// --- Loop FizzBuzz (1 to Request.x) ---
