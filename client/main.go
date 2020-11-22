@@ -10,7 +10,8 @@ import (
 	"io"
 	"time"
 	"google.golang.org/grpc"
-	pb ".."
+	//pb ".."
+	pb "fizzbuzz_go" // with go modules
 )
 
 const (

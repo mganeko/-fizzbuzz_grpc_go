@@ -11,7 +11,8 @@ import (
 	"strconv"
 	"io"
 	"google.golang.org/grpc"
-	pb ".."
+	//pb ".." // without go modules
+	pb "fizzbuzz_go" // with go modules
 )
 
 const (
